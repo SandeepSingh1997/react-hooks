@@ -16,9 +16,9 @@ export default function UseCallbackComponent() {
         <br />
         When a page is re-rendered the function callback is always created
         afresh, with changing reference to it, hence the useEffect in
-        Mycomponent run at every rerender, but if we useCallback on the function
-        then it only gets created/gets new reference when it;s dependency
-        changes.
+        Mycomponent runs at every rerender, but if we useCallback on the
+        function then it only gets created/gets new reference when it's
+        dependency i.e 'count' changes.
       </p>
       <h1>Example</h1>
       <p>{count}</p>
